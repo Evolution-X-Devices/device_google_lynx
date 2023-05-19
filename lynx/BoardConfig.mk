@@ -25,4 +25,4 @@ include device/google/gs201/BoardConfig-common.mk
 include device/google/lynx/sepolicy/lynx-sepolicy.mk
 include device/google/gs201/wifi/qcom/BoardConfig-wifi.mk
 
-include device/google/lynx/lynx/BoardConfigLineage.mk
+include device/google/lynx/lynx/BoardConfigEvolution.mk
