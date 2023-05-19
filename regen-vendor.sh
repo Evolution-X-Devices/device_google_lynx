@@ -1088,7 +1088,7 @@ VENDOR_SKIP_FILES=(
     "lib/modules"
 
     # Exclude files that compile with BUILD_WITHOUT_VENDOR := false
-    # or manually added as build targets in device-lineage.mk
+    # or manually added as build targets in device-evolution.mk
 
     # Audio
     "lib/libaudioroutev2.so"
@@ -1114,12 +1114,6 @@ VENDOR_SKIP_FILES=(
     "lib/pixel-power-ext-V1-ndk.so"
     "lib64/libGralloc4Wrapper.so"
     "lib64/libcamera2ndk_vendor.so"
-
-    # Charger
-    "etc/res/images/charger/battery_fail.png"
-    "etc/res/images/charger/battery_scale.png"
-    "etc/res/images/charger/main_font.png"
-    "etc/res/values/charger/animation.txt"
 
     # Codec2
     "lib/android.hardware.media.bufferpool2-V1-ndk.so"
