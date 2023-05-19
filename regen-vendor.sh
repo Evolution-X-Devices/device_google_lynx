@@ -1055,7 +1055,7 @@ VENDOR_SKIP_FILES=(
     "lib/modules"
 
     # Exclude files that compile with BUILD_WITHOUT_VENDOR := false
-    # or manually added as build targets in device-lineage.mk
+    # or manually added as build targets in device-evolution.mk
 
     # Audio
     "lib/libaudioroutev2.so"
