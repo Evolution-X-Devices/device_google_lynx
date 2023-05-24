@@ -7,5 +7,9 @@
     "remote"      : "evo-gitlab",
     "repository"  : "vendor_google_lynx",
     "target_path" : "vendor/google/lynx"
+  },
+  {
+    "repository"  : "packages_apps_PixelParts",
+    "target_path" : "packages/apps/PixelParts"
   }
 ]
