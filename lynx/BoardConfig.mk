@@ -54,3 +54,4 @@ endif
 DEVICE_PATH := device/google/lynx
 VENDOR_PATH := vendor/google/lynx
 include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigLineage.mk
+include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigEvolution.mk
