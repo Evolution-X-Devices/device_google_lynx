@@ -14,7 +14,9 @@ DEVICE_PATH := device/google/lynx
 VENDOR_PATH := vendor/google/lynx
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 $(call inherit-product, device/google/gs201/lineage_common.mk)
+$(call inherit-product, device/google/gs201/evolution_common.mk)
 $(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-lineage.mk)
+$(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-evolution.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
