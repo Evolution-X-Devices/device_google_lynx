@@ -4,7 +4,7 @@
 
 # AiAi
 product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk;PRESIGNED
-product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED
+product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;OVERRIDES=DevicePersonalizationAiAiPrebuiltPixel2025;PRESIGNED
 
 # Audio
 product/etc/ambient/matcher_tah.leveldb
@@ -12,6 +12,9 @@ product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/etc/firmware/music_detector.sound_model_2
 product/etc/firmware/music_detector.sound_model_tflite
+
+# Camera
+product/priv-app/GoogleCamera/GoogleCamera.apk;OVERRIDES=Aperture,ApertureOverlayLynx;PRESIGNED
 
 # Camera extensions
 product/etc/permissions/androidx.camera.extensions.impl.xml
