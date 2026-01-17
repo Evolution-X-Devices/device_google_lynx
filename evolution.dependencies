@@ -7,7 +7,7 @@
     "remote": "github",
     "repository": "LineageOS/android_device_google_lynx-kernels",
     "target_path": "device/google/lynx-kernels",
-    "branch": "lineage-23.2"
+    "branch": "lineage-24.0"
   },
   {
     "repository": "vendor_google_lynx",
