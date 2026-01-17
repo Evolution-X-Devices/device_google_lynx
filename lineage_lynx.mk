@@ -22,6 +22,9 @@ PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Custom flags
+TARGET_HAS_UDFPS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="lynx-user 16 BP4A.260205.001 14624666 release-keys" \
     BuildFingerprint=google/lynx/lynx:16/BP4A.260205.001/14624666:user/release-keys \
