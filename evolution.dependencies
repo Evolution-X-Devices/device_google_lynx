@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "device_google_gs201",
+    "target_path": "device/google/gs201"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_device_google_lynx-kernels",
+    "target_path": "device/google/lynx-kernels",
+    "branch": "lineage-23.2"
+  },
+  {
+    "repository": "vendor_google_lynx",
+    "target_path": "vendor/google/lynx"
+  }
+]

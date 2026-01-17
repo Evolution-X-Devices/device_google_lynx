@@ -3,8 +3,8 @@
 # product partition
 
 # AiAi
-product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk;PRESIGNED
-product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED
+product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk;OVERRIDES=DeviceIntelligenceNetworkPrebuiltAstrea;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2022-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2022-playstore_aiai_20250306.00_RC10.apk;OVERRIDES=DevicePersonalizationAiAiPrebuiltPixel2025;PRESIGNED
 
 # Audio
 product/etc/ambient/matcher_tah.leveldb
@@ -12,6 +12,9 @@ product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/etc/firmware/music_detector.sound_model_2
 product/etc/firmware/music_detector.sound_model_tflite
+
+# Camera
+product/priv-app/GoogleCamera/GoogleCamera.apk;OVERRIDES=Aperture;PRESIGNED
 
 # Camera extensions
 product/etc/permissions/androidx.camera.extensions.impl.xml
