@@ -3,8 +3,8 @@
 # product partition
 
 # AiAi
-product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk;OVERRIDES=DeviceIntelligenceNetworkPrebuiltAstrea;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2022-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2022-playstore_aiai_20250306.00_RC10.apk;OVERRIDES=DevicePersonalizationAiAiPrebuiltPixel2025;PRESIGNED
+product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk;PRESIGNED
+product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED
 
 # Audio
 product/etc/ambient/matcher_tah.leveldb
@@ -48,7 +48,7 @@ product/etc/sysconfig/preinstalled-packages-com.shannon.rcsservice.xml
 product/etc/libnfc-nci.conf
 
 # Now Playing
-product/app/NowPlayingPrebuilt/NowPlayingPrebuilt.apk;PRESIGNED
+product/app/NowPlayingPrebuilt/NowPlayingPrebuilt.apk
 product/etc/default-permissions/default-permissions_nowplaying.xml
 product/etc/sysconfig/nowplaying_app_26q1.xml
 

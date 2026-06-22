@@ -90,7 +90,6 @@ vendor/bin/shamp
 vendor/bin/shared_modem_platform
 vendor/bin/sscoredump
 vendor/bin/storage_init.sh
-vendor/bin/thermal_symlinks
 vendor/bin/touch_gti_ical
 vendor/bin/trusty_metricsd
 vendor/bin/twoshay
@@ -392,13 +391,8 @@ vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-brcm.xml
 vendor/etc/vintf/manifest/android.hardware.health-service.gs201.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-darwinn-aidl.xml
 vendor/etc/vintf/manifest/android.hardware.oemlock-service.citadel.xml
-vendor/etc/vintf/manifest/android.hardware.power-service.pixel.xml
-vendor/etc/vintf/manifest/android.hardware.power.stats-service.pixel.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service-v3.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharesecret-service.citadel.xml
-vendor/etc/vintf/manifest/android.hardware.thermal-service.pixel.xml
-vendor/etc/vintf/manifest/android.hardware.usb-service.xml
-vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.xml
 vendor/etc/vintf/manifest/android.hardware.vibrator-service.cs40l26.xml
 vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml
 vendor/etc/vintf/manifest/dmd.xml
@@ -2145,8 +2139,6 @@ vendor/lib64/modem_clock_manager.so
 vendor/lib64/modem_clock_manager_impl.so
 vendor/lib64/modem_log_constants.so
 vendor/lib64/modem_log_dumper.so
-vendor/lib64/pixel_stateresidency_provider_aidl_interface-ndk.so
-vendor/lib64/pixelatoms-cpp.so
 vendor/lib64/pixelstats_flags_c_lib.so
 vendor/lib64/sensors.usf.so
 vendor/lib64/soundfx/liboffloadeffect.so
