@@ -28,9 +28,9 @@ TARGET_HAS_UDFPS := true
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="lynx-user 17 CP2A.260705.006 15641320 release-keys" \
-    BuildFingerprint=google/lynx/lynx:17/CP2A.260705.006/15641320:user/release-keys \
-    BuildSystemFingerprint=google/generic_system_google/generic:17/CP2A.260705.006/15641320:user/release-keys \
+    BuildDesc="lynx-user 17 CP2A.260605.012 15430684 release-keys" \
+    BuildFingerprint=google/lynx/lynx:17/CP2A.260605.012/15430684:user/release-keys \
+    BuildSystemFingerprint=google/generic_system_google/generic:17/CP2A.260605.012/15430684:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
