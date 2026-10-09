@@ -68,7 +68,7 @@ product/lib/libdmengine.so;SYMLINK=product/priv-app/DMService/lib/arm/libdmengin
 product/lib/libdmjavaplugin.so;SYMLINK=product/priv-app/DMService/lib/arm/libdmjavaplugin.so
 product/lib64/libdmengine.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmengine.so
 product/lib64/libdmjavaplugin.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmjavaplugin.so
-product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
+product/priv-app/CarrierSettings/CarrierSettings.apk;OVERRIDES=CarrierConfig;PRESIGNED
 product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
