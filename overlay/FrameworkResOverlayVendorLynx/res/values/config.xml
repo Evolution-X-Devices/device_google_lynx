@@ -292,10 +292,4 @@
 
     <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
     <bool name="config_screen_off_udfps_enabled">true</bool>
-
-    <!-- Whether to enable app launch blur -->
-    <bool name="config_enableAppLaunchBlur">false</bool>
-
-    <!-- Whether to enable blur expansion (surface blurs) -->
-    <bool name="config_enableBlurExpansion">false</bool>
 </resources>
